@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subin Maharjan - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Subin Maharjan</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Subin Maharjan</span>
+                </h1>
+                <p class="hero-subtitle">Ph.D. Student in Computer Science | ML Engineer | LLM Researcher</p>
+                <p class="hero-description">
+                    I specialize in Machine Learning, Large Language Models, and Cybersecurity. Currently pursuing my Ph.D. at the University of Idaho, focusing on secure code generation and LLM applications in cyber defense.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="profile-photo.jpg" alt="Subin Maharjan" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Ph.D. student in Computer Science at the University of Idaho with a strong background in Machine Learning, 
+                        Large Language Models, and Cybersecurity. My research focuses on generating secure code using LLMs and 
+                        exploring LLM applications in cyber offensive and defensive tasks.
+                    </p>
+                    <p>
+                        With experience as an ML Engineer at WISEYAK and DOCSUMO, I've developed expertise in building chatbots, 
+                        fine-tuning SOTA models, and implementing RAG systems. I'm passionate about advancing AI research while 
+                        ensuring security and reliability in machine learning applications.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>4.0</h3>
+                            <p>Ph.D. GPA</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Years ML Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Research Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Machine Learning & AI</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">PyTorch</span>
+                        <span class="skill-item">TensorFlow</span>
+                        <span class="skill-item">Scikit-Learn</span>
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">NumPy</span>
+                        <span class="skill-item">Matplotlib</span>
+                        <span class="skill-item">Deep Learning</span>
+                        <span class="skill-item">NLP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>LLM & Research</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">LangChain</span>
+                        <span class="skill-item">RAG Systems</span>
+                        <span class="skill-item">Prompt Engineering</span>
+                        <span class="skill-item">Model Fine-tuning</span>
+                        <span class="skill-item">ChatGPT API</span>
+                        <span class="skill-item">ProtT5</span>
+                        <span class="skill-item">ProtBERT</span>
+                        <span class="skill-item">Reinforcement Learning</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming & Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">C</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub</span>
+                        <span class="skill-item">MLflow</span>
+                        <span class="skill-item">GCP</span>
+                        <span class="skill-item">Linux</span>
+                        <span class="skill-item">LaTeX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Achievements Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <h2 class="section-title">Research & Achievements</h2>
+            <div class="research-content">
+                <div class="research-grid">
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Awards & Scholarships</h3>
+                        <ul>
+                            <li>St. Xavier's College Scholarship (2016)</li>
+                            <li>Nepal Government Scholarship for Bachelor in Engineering (2018)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Certifications</h3>
+                        <ul>
+                            <li>Mathematics for ML</li>
+                            <li>Deep Learning</li>
+                            <li>Machine Learning</li>
+                            <li>Discrete Mathematics for Computer Science</li>
+                            <li>Excel Data Analysis</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Leadership & Volunteering</h3>
+                        <ul>
+                            <li>Locus Committee - Tech Festival Organization</li>
+                            <li>DataVerse AI Competition Program</li>
+                            <li>Children in Tech Program</li>
+                            <li>Magis Committee - Educational Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Lysine Succinylation Site Prediction</h3>
+                        <p>Developed a protein language model using ProtT5 and ProtBERT to extract embeddings from protein sequences. Implemented CNN model with ensemble methods for accurate lysine succinylation site prediction.</p>
+                        <div class="project-tech">
+                            <span>ProtT5</span>
+                            <span>ProtBERT</span>
+                            <span>CNN</span>
+                            <span>Ensemble Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SubinMaharjan" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Paper</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Inverted Pendulum Control with RL</h3>
+                        <p>Implemented reinforcement learning algorithms to stabilize an inverted pendulum. Trained the model using OpenAI Gym framework and successfully deployed it in a real environment for stability control.</p>
+                        <div class="project-tech">
+                            <span>Reinforcement Learning</span>
+                            <span>OpenAI Gym</span>
+                            <span>Python</span>
+                            <span>Control Systems</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SubinMaharjan" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-virus"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>COVID-19 Detection from X-ray Images</h3>
+                        <p>Built a deep neural network model for COVID-19 detection using chest X-ray images. Implemented convolution, max-pooling, and dropout layers to extract important features and achieve high accuracy in patient classification.</p>
+                        <div class="project-tech">
+                            <span>Deep Learning</span>
+                            <span>CNN</span>
+                            <span>Medical Imaging</span>
+                            <span>PyTorch</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SubinMaharjan" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Model</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Traffic Signal Detection for Autonomous Vehicles</h3>
+                        <p>Developed a computer vision system for traffic signal detection in self-driving cars. Implemented image preprocessing, scaling, transformation, and brightness adjustment techniques for robust signal recognition.</p>
+                        <div class="project-tech">
+                            <span>Computer Vision</span>
+                            <span>OpenCV</span>
+                            <span>Image Processing</span>
+                            <span>Autonomous Systems</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SubinMaharjan" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Nepal Telecom Chatbot (NTC)</h3>
+                        <p>Designed and developed a conversational AI chatbot for Nepal Telecom using advanced RAG systems. Implemented techniques to mitigate hallucination problems in open-source LLMs for reliable customer service.</p>
+                        <div class="project-tech">
+                            <span>LLM</span>
+                            <span>RAG Systems</span>
+                            <span>Chatbot</span>
+                            <span>NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SubinMaharjan" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Secure Code Generation with LLMs</h3>
+                        <p>Ongoing Ph.D. research on generating secure code using Large Language Models. Exploring LLM applications in cyber offensive and defensive tasks, focusing on code security and vulnerability detection.</p>
+                        <div class="project-tech">
+                            <span>LLM</span>
+                            <span>Cybersecurity</span>
+                            <span>Code Security</span>
+                            <span>Research</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SubinMaharjan" class="project-link"><i class="fab fa-github"></i> Research</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Publications</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>mhrznsubin@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>240-302-0644</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Moscow, Idaho, USA</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>University of Idaho</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/SubinMaharjan" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/subin-maharjan-625ab4185/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link google-scholar">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+                                <path d="M12 6c-3.314 0-6 2.686-6 6s2.686 6 6 6 6-2.686 6-6-2.686-6-6-6zm0 10c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4z"/>
+                                <path d="M12 8c-2.206 0-4 1.794-4 4s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4zm0 6c-1.103 0-2-.897-2-2s.897-2 2-2 2 .897 2 2-.897 2-2 2z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="from_name" name="from_name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="from_email" name="from_email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Subin Maharjan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

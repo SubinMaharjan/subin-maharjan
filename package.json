@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "dev": "npx live-server --port=3000"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "html",
+    "css",
+    "javascript",
+    "responsive",
+    "github-pages"
+  ],
+  "author": "Subin Maharjan",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SubinMaharjan/SubinMaharjan.github.io.git"
+  },
+  "homepage": "https://SubinMaharjan.github.io"
+}
